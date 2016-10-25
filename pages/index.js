@@ -3,22 +3,20 @@ import Head from 'next/head'
 import css from 'next/css'
 
 export default () => (
-  <div className={style}>
+  <div>
     <Head>
       <title>Home</title>
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      <style>{`
+        body {
+          background: #08C;
+        }
+      `}</style>
     </Head>
-    <p>Uprising!</p>
+    <p className={paragraph}>Uprising!</p>
   </div>
 )
 
-const style = css({
-  background: '#08C',
+const paragraph = css({
   color: '#FFF',
-  ':hover': {
-    background: '#68C'
-  },
-  '@media (max-width: 600px)': {
-    background: '#000'
-  }
 })
