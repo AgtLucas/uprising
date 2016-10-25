@@ -1,5 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
+import Link from 'next/link'
 import css from 'next/css'
 
 export default () => (
@@ -14,6 +15,7 @@ export default () => (
       `}</style>
     </Head>
     <p className={paragraph}>Uprising!</p>
+    <Link href='/about'>About</Link>
   </div>
 )
 
