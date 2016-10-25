@@ -1,0 +1,23 @@
+{
+  "name": "uprising",
+  "version": "1.0.0",
+  "description": "Playing with Next",
+  "main": "index.js",
+  "dependencies": {
+    "next": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AgtLucas/uprising.git"
+  },
+  "author": "Lucas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AgtLucas/uprising/issues"
+  },
+  "homepage": "https://github.com/AgtLucas/uprising#readme"
+}
