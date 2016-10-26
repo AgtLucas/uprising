@@ -12,6 +12,10 @@ export default () => (
         body {
           background: #08C;
         }
+
+        a {
+          color: #FFF;
+        }
       `}</style>
     </Head>
     <p className={paragraph}>Uprising!</p>
