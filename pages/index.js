@@ -25,5 +25,6 @@ export default () => (
 
 const paragraph = css({
   color: '#FFF',
-  backgroundColor: '#08C'
+  backgroundColor: '#08C',
+  padding: 20
 })
