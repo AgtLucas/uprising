@@ -25,4 +25,5 @@ export default () => (
 
 const paragraph = css({
   color: '#FFF',
+  backgroundColor: '#08C'
 })
